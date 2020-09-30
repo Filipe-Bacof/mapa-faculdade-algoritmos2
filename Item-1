@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+/*INSTRUÇÃO PARA O CODIGO RODAR:
+abrir o menu de ferramentas do dev C -> Opções do compilador
+em seguida marcar a caixa que diz "Adicionar os seguintes comandos quando chamar o compilador:"
+no campo para digitar que está em baixo colar o que está entre aspas na linha abaixo (sem as aspas)
+"-std=c99"
+apertar em ok e compilar o código.*/
+int main(){
+	setlocale(LC_ALL, "Portuguese");
+	const char numRA[]={"19178365"};
+	int vetorRA[9];
+	for(int i=0; i<9; i++){
+		vetorRA[i]=numRA[i]-'0';
+	}int i=0;
+	while(i<8){
+		printf ("\nO caractrere numero %d do RA é: %d\n", i+1, vetorRA[i]);
+		i++;
+	}printf ("\n");
+	system("pause");
+	return 0;
+}
