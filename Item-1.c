@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-/*INSTRUÇÃO PARA O CODIGO RODAR:
-abrir o menu de ferramentas do dev C -> Opções do compilador
-em seguida marcar a caixa que diz "Adicionar os seguintes comandos quando chamar o compilador:"
-no campo para digitar que está em baixo colar o que está entre aspas na linha abaixo (sem as aspas)
-"-std=c99"
-apertar em ok e compilar o código.*/
+/* INSTRUÇÕES PARA EXECUTAR O CÓDIGO:
+1- Abra o menu "Ferramentas" do Dev C++.
+2- Selecione "Opções do compilador".
+3- Marque a caixa que diz "Adicionar os seguintes comandos ao chamar o compilador:".
+4- No campo abaixo, cole o seguinte comando (sem as aspas): "-std=c99".
+5- Clique em "OK" e compile o código. */
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	const char numRA[]={"19178365"};

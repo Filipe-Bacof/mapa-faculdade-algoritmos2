@@ -3,14 +3,15 @@
 #include <locale.h>
 #define linha 4
 #define coluna 6
-//rode o executavel em tela cheia para uma melhor experiencia
 
-/*INSTRUÇÃO PARA O CODIGO RODAR:
-abrir o menu de ferramentas do dev C -> Opções do compilador
-em seguida marcar a caixa que diz "Adicionar os seguintes comandos quando chamar o compilador:"
-no campo para digitar que está em baixo colar o que está entre aspas na linha abaixo (sem as aspas)
-"-std=c99"
-apertar em ok e compilar o código.*/
+/* INSTRUÇÕES PARA EXECUTAR O CÓDIGO:
+1- Abra o menu "Ferramentas" do Dev C++.
+2- Selecione "Opções do compilador".
+3- Marque a caixa que diz "Adicionar os seguintes comandos ao chamar o compilador:".
+4- No campo abaixo, cole o seguinte comando (sem as aspas): "-std=c99".
+5- Clique em "OK" e compile o código.
+6- Para uma melhor experiência sugiro rodar o executável em tela cheia */
+
 int i, j;
 	float preenchervendas(float matriz[linha][coluna]);
 	float exibirvendas(float matriz[linha][coluna]);
